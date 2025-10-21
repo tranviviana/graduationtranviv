@@ -81,3 +81,30 @@ left: 33%;
 }
 
 
+#rsvp {
+  max-width: 700px;  
+  margin: 0 auto;    
+  padding: 20px;     
+  text-align: center; 
+}
+
+/* Responsive headers */
+#rsvp h1 {
+  font-size: 2rem;    
+  margin-bottom: 10px;
+}
+
+#rsvp p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+
+#rsvp iframe {
+  width: 100%;       
+  max-width: 640px;
+  height: 1228px;     
+  display: block;
+  margin: 0 auto;    
+}
