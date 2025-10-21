@@ -1,39 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.signature-italic {
+  font-family: 'Great Vibes', cursive;
+}
+:root {
+  --primary-color: #f0f0f0;   
+  --text-color: #000000;    
+}
 
 .App {
-  text-align: center;
+  background-color: var(--primary-color);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, .heading {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 2000;
+  color: var(--primary-color);
+  align-self: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.navbar-brand {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem; 
+  color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+.main-content {
+  margin-top: 70px;  
+}
+.main-content > div {
+  margin-bottom: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+#image-div #graduation-div {
+  display: flex;
+  flex-direction: row;
+  max-width: 50%; 
+  justify-content: center;
+}
+img {
+  max-width: 33%;
 }
 
-.App-link {
-  color: #61dafb;
+#graduation-div {
+  width: 100vw;
+  margin-bottom: 10vh;  
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+#graduation-div .carousel,
+#graduation-div .carousel-inner,
+#graduation-div .carousel-item {
+  width: 100vw;
+  height: 60vh;
+  
+
 }
+#graduation-div .carousel-item img {
+  width: 100%;         
+  height: 100%;        
+  object-fit: contain;
+  position: absolute;
+top: 0%;
+left: 33%;
+   
+   
+}
+
+
