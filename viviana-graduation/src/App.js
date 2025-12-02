@@ -38,10 +38,12 @@ function App() {
           </div>
           <div id="rsvp" >
       
-            <h1>Please Reserve Here!</h1>
-            <p>RSVPs will be used for our reservation and to allocate enough time for pictures.</p>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfNzuWr5UT2qP9NbU39kdeSJ9TxM8Dnj30zk-leKtXqpXSHZg/viewform?embedded=true" width="640" height="1228" frameborder="0" marginheight="0" marginwidth="0" title="rsvp form">Loading…</iframe>
-    
+          <h1>Agenda For December 20th Is Available Here</h1>
+            <iframe
+      src="/December_20.pdf"
+      style={{ width: "100%", height: "100vh", border: "none" }}
+      title="PDF Viewer"
+    />
           </div>
           <div id="theme" >
           <h1> Theme</h1>
