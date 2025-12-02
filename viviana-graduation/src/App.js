@@ -40,7 +40,7 @@ function App() {
       
           <h1>Agenda For December 20th Is Available Here</h1>
             <iframe
-      src="/December_20.pdf"
+      src="${process.env.PUBLIC_URL}/December_20.pdf"
       style={{ width: "100%", height: "100vh", border: "none" }}
       title="PDF Viewer"
     />
