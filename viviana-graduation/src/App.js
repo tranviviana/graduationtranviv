@@ -7,7 +7,6 @@ import ThemeImage from './images/image.png'
 import DinnerLocationOne from './images/great_china.jpg'
 import DinnerLocationTwo from './images/great_china_table.jpg'
 import Carousel from 'react-bootstrap/Carousel';
-import decemberPDF from "./images/December_20.pdf";
 const importAll = (r) => r.keys().map(r);
 const images = importAll(require.context('./images/graduation_white', false, /\.(png|jpe?g|svg)$/));
 
@@ -42,7 +41,7 @@ function App() {
       
           <h1>Agenda For December 20th Is Available Here</h1>
           <iframe
-  src={decemberPDF}
+  src={`${process.env.PUBLIC_URL}/December_20.pdf`}
   style={{ width: "100%", height: "100vh", border: "none" }}
   title="PDF Viewer"
 />
